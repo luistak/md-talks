@@ -1,0 +1,41 @@
+[debug] [2018-08-05T15:13:59.669Z] ----------------------------------------------------------------------
+[debug] [2018-08-05T15:13:59.671Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\luisi\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-05T15:13:59.671Z] CLI Version:   4.0.0
+[debug] [2018-08-05T15:13:59.671Z] Platform:      win32
+[debug] [2018-08-05T15:13:59.671Z] Node Version:  v8.11.3
+[debug] [2018-08-05T15:13:59.672Z] Time:          Sun Aug 05 2018 12:13:59 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-08-05T15:13:59.672Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-05T15:13:59.686Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-05T15:13:59.687Z] > authorizing via signed-in user
+[debug] [2018-08-05T15:13:59.689Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-05T15:13:59.690Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/Gksvw3pwnGtVA-ELV5DhkrGqlhLF5pFpiQgeBEkqUKho8sZtoLZQQJW4avqRflCn',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Aug 05 2018 12:13:59 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-08-05T15:14:00.117Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-05T15:14:00.130Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/md-talks  
+  
+ Sun Aug 05 2018 12:14:00 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-08-05T15:14:00.895Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-05T15:14:00.896Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/md-talks/tokens  
+  
+ Sun Aug 05 2018 12:14:00 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-08-05T15:14:01.573Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-05T15:14:01.574Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/md-talks  
+  
+ Sun Aug 05 2018 12:14:01 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-08-05T15:14:02.630Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\luisi\Documents\Gama\md-talks'...
+[info] 
+[debug] [2018-08-05T15:14:02.633Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1021362617400/clients/_:getWebAppConfig  
+  
+ Sun Aug 05 2018 12:14:02 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-08-05T15:14:03.184Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: /
+[info] +  hosting: Local server: http://localhost:5000
+
