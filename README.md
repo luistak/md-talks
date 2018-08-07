@@ -59,7 +59,7 @@
 2. Clique com o botão direito em uma área branca da pasta
 3. Selecione GitBash here
 4. Após o Bash abrir selecione ele e digite:
-    > sass --watch stylesheets/main.scss:stylesheets/main.css
+    > sass --watch stylesheets/main.scss:stylesheets/main.css --style compressed
 
 ### Para ver o blog
 **Rodar o firebase local**
