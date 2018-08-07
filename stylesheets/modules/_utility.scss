@@ -20,6 +20,10 @@
     border: none !important;
 }
 
+.no-grow {
+    flex-grow: initial;
+}
+
 .no-radius {
     border-radius: 0;
 }
@@ -35,6 +39,10 @@
 .gray-bg {
     color: $light-font-color !important;
     background-color: $gray;
+}
+
+.dark-gray-bg {
+    background-color: $dark-gray;
 }
 
 .green-bg {

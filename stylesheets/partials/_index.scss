@@ -1,15 +1,6 @@
 .banner-head {
-    position: relative;
-    height: 500px;
-    .banner-title {
-        position: absolute;
-        bottom: 2rem;
-        left: 0;
-        right: 0;
-        display: block;
-        text-align: center;
-        font-size: 4rem;
-        color: $light-font-color;
+    img {
+        width: 100%;
     }
 }
 
@@ -25,6 +16,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    @media (max-width: 991px) {
+        background-size: contain;
+    }
 }
 
 .green-title {
@@ -38,6 +32,9 @@ section {
     }
 }
 
-main {
-    padding-top: 180px;
+.map {
+    iframe {
+        height: 450px;
+        width: 100%;
+    }
 }
