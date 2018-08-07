@@ -14,7 +14,6 @@ gama.setup = function () {
         console.error(e);
     }
 }
-
 // Activates when dom is loaded
 $(function () {
     gama.initialize();
