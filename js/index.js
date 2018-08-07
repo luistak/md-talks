@@ -14,7 +14,7 @@ gama.setup = function () {
         console.error(e);
     }
 }
-
+// teste
 // Activates when dom is loaded
 $(function () {
     gama.initialize();
