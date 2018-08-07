@@ -78,12 +78,29 @@ section .title {
   font-size: 3.5rem;
 }
 
-header {
-  border-top: 2.5rem solid #88d317;
+main {
+  padding-top: 180px;
 }
 
+header {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-top: 2rem solid #88d317;
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+  left: 0;
+}
+
+.navbar {
+  padding: 3rem 0;
+}
 .navbar.gama-bg a {
   color: #fff !important;
+}
+@media (max-width: 991px) {
+  .navbar {
+    padding: 1.5rem 0;
+  }
 }
 
 .navbar-nav a::before {
