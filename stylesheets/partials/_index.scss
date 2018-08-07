@@ -1,0 +1,39 @@
+.banner-head {
+    position: relative;
+    height: 500px;
+    .banner-title {
+        position: absolute;
+        bottom: 2rem;
+        left: 0;
+        right: 0;
+        display: block;
+        text-align: center;
+        font-size: 4rem;
+        color: $light-font-color;
+    }
+}
+
+.img-parallax {
+    /* The image used */
+    background-image: url('../../img/banner.png');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.green-title {
+    color: $green;
+    font-size: 2rem;
+}
+
+section {
+    .title {
+        font-size: 3.5rem;
+    }
+}
