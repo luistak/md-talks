@@ -24,10 +24,10 @@ gama.scrollListener = function () {
         var header =  $('header');
         var selector = $(this).attr('href');
         var element = selector == '#' ? header : $(selector);
-        var height = selector == '#' ? 0 : element.offset().top + header.outerHeight();
+        var height = selector == '#' ? 0 : element.offset().top - header.outerHeight();
 
         window.scroll({
-            top: height , 
+            top: height,
             behavior: 'smooth' 
         });
     })
