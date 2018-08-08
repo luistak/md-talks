@@ -4,6 +4,10 @@ html {
     }
 }
 
+body.gama {
+    @extend %font-roboto-sans;
+}
+
 main {
     padding-top: 10rem;
 }

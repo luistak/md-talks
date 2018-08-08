@@ -8,6 +8,25 @@
 		<!-- Main CSS -->
 		<link rel="stylesheet" href="stylesheets/main.css">
 
+		<!-- Open graph -->
+		<meta property="og:site_name" content="MD Talks">
+		<meta property="og:image" content="img/banner.jpg">
+		<meta property="og:title" content="MD Talks - Inovação e Disrupção no Mercado Digital">
+		<meta property="og:description" content="MD Talks - MeetUp com empreendedores (profissionais ou estudantes) com talks sobre tendências de marketing digital, inovação e empreendedorismo. É um evento para profissionais que desejam compartilhar e desenvolver seus conhecimentos sobre o impacto do marketing digital nos negócios.">
+		<meta property="og:url" content="https://www.mdtalks.com.br">
+		
+		<!-- S.E.O -->
+		<meta name="robots" content="index, follow" />
+		<title>MD Talks - Inovação e Disrupção no Mercado Digital</title>
+		<meta description="MD Talks - MeetUp com empreendedores (profissionais ou estudantes) com talks sobre tendências de marketing digital, inovação e empreendedorismo. É um evento para profissionais que desejam compartilhar e desenvolver seus conhecimentos sobre o impacto do marketing digital nos negócios.">
+		<meta keywords="Evento, Networking, Marketing Digital para negócios, Empreendedorismo, inovação">
+		
+		<!-- Favicon -->
+		<link rel="icon" href="img/MDfavicon.ico?v=12" />
+
+		<!-- Font Awesome  -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
 		<!-- Firebase Setup -->
 		<script defer src="/__/firebase/5.3.1/firebase-app.js"></script>
 		<script defer src="/__/firebase/5.3.1/firebase-auth.js"></script>
@@ -25,7 +44,7 @@
 			gtag('config', 'UA-123464518-1');
 		</script>
 	</head>
-	<body>
+	<body class="gama">
 		<header class="gama-bg">
 			<section class="container menu">
 				<nav class="navbar navbar-expand-lg navbar-light gama-bg justify-content-between">
@@ -44,11 +63,11 @@
 								<a class="nav-link" href="#palestrantes">Palestrantes</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link " href="#tickets">Ingressos</a>
+								<a class="nav-link " href="#tickets">Programação</a>
 							</li>
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 								<a class="nav-link " href="#sponsor">Patrocinadores</a>
-							</li>
+							</li> -->
 							<li class="nav-item">
 								<a class="nav-link " href="#address">Endereço</a>
 							</li>
@@ -58,8 +77,41 @@
 			</section>
 		</header>
 		<main>
-			<section class="banner-head container">
-				<img src="img/banner.png" alt="Banner MdTalks" class="img-fluid">
+			<section id="descricao">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-6 text-justify">
+							<div class="title text-left mb-5">Garanta já seu ingresso</div>
+							<p>
+								MD Talks - um encontro de profissionais empreendedores e estudantes.<br>
+								Por meio de conversas com profissionais da área vamos falar sobre os assuntos mais em alto do momento: Data Science e Blockchain.<br>
+							</p>
+							<p>	Inscreva-se e não perca essa oportunidade.</p>
+						</div>
+						<div class="col-12 col-md-6 text-center">
+							<div class="mx-auto">
+								<div class="green-title">Endereço</div>
+								<p>
+									<strong>Urbe Café</strong> <br>
+									Rua Antônio Carlos, 404, Consolação <br>
+									São Paulo, SP
+								</p>
+								<a href="https://www.urbecafe.com.br/" target="_blank" alt="Urbe café!" class="my-3">
+									<button class="btn gama-bg">
+										Saiba mais sobre o local
+									</button>
+								</a>
+							</div>
+							<div id="sympla-widget-335456" height="auto" class="mx-auto"></div>
+							<script src="https://www.sympla.com.br/js/sympla.widget-pt.js/335456"></script>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="gama-bg">
+				<div class="banner-head  container">
+					<img src="img/meetup.png" alt="Banner MdTalks" class="img-fluid">
+				</div>
 			</section>
 			<section id="participar" class="container">
 				<div class="text-center title my-3">Por que participar?</div>
@@ -76,33 +128,43 @@
 						<div class="green-title">Inovação</div>
 						<img src="img/icons/innovation.png" alt="Inovação">
 					</div>
-					<div class="col-12 align-items-center justify-content-center">
-						<p class="py-4 text-center">
-							Está a fim de participar, mas não sabe como convencer seus líderes? Baixe a nossa carta para o chefe.
-						</p>
-					</div>
 				</div>
 			</section>
 			<section id="palestrantes" class="gama-bg py-4 mt-3">
 				<div class="container">
-					<div class="title text-left">Palestrantes</div>
+					<div class="title text-center">Palestrantes</div>
 					<div id="panelist" class="row">
-
+						<div class="container py-3">
+							<div class="row gama-flex">
+								<div class="col-6 d-flex flex-column align-items-center">
+									<div class="panelist italo"></div>
+									<p class="green-title"><strong>Ítalo Alberto</strong></p>
+									<p>Data Science</p>
+								</div>
+								<div class="col-6 d-flex flex-column align-items-center">
+									<div class="panelist sarah"></div>
+									<p class="green-title"><strong>Sarah Uska</strong></p>
+									<p>Blockchain</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
 			<section id="tickets" class="container my-5">
-				<div class="title text-right">Garanta já seu ingresso</div>
-				<div class="text-justify">
-					<p class="my-5">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra rutrum bibendum. Nunc ut quam eu tortor vulputate aliquet eget tempus nisl. Proin in turpis neque. Proin elementum arcu a mauris euismod eleifend. Praesent hendrerit ullamcorper nisl fermentum eleifend. Aliquam sit amet aliquet libero, nec interdum leo. Praesent condimentum augue id leo mattis, in tincidunt orci convallis. In vel tempus mi. 
-					</p>
-					<a href="https://www.sympla.com.br/md-talks__335456" target="_blank">
-						<button class="btn btn-large btn-block green-bg">Comprar</button>
-					</a>
+				<div class="title text-center mb-5">Programação</div>
+				<div class="gama-flex">
+					<div class="text-justify">
+						<p>Inicialmente, será realizado uma sequência de talks (ainda estamos definindo os palestrantes) </p>
+						<p> seguidas de um coffee break para muita interação e networking entre os participantes.</p>
+						<p>19h30 Credenciamento</p>
+						<p>20h~21h Talks com personalidades renomadas do mercado</p>
+						<p>21h~22h Happy Hour e networking</p>
+					</div>
+					<a class="button-small-text" href="https://www.sympla.com.br/md-talks__335456" target="_blank"><img src="https://www.sympla.com.br/images/btn-register se.png" alt="" style="" /></a>
 				</div>
 			</section>
-			<section id="sponsor" class="gama-bg">
+			<!-- <section id="sponsor" class="gama-bg">
 				<div class="container py-3">
 					<div class="row">
 						<div class="col-12 col-md-4 my-3 d-flex justify-content-center">
@@ -114,33 +176,31 @@
 						<div class="col-12 col-md-4 my-3 d-flex justify-content-center">
 							<img src="img/profile.png" alt="Patrocinador X" class="img-fluid">
 						</div>
-						<div class="col-12 col-md-4 my-3 d-flex justify-content-center">
-							<img src="img/profile.png" alt="Patrocinador X" class="img-fluid">
-						</div>
-						<div class="col-12 col-md-4 my-3 d-flex justify-content-center">
-							<img src="img/profile.png" alt="Patrocinador X" class="img-fluid">
-						</div>
-						<div class="col-12 col-md-4 my-3 d-flex justify-content-center">
-							<img src="img/profile.png" alt="Patrocinador X" class="img-fluid">
-						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<section id="address" class="green-bg py-5">
 				<div class="container">
 					<div class="row">
 						<div class="col-12 col-md-6">
-							<div class="title text-center"> Localização</div>
-							<p class="text-center">
-								Endereço do local, rua bla bla bla nº 104, São Paulo
-							</p>
+							<div class="title text-center">Endereço</div>
+							<div class="text-justify">
+								<p><strong>Urbe Café</strong></p>
+								<p>Rua Antônio Carlos, 404, Consolação</p>
+								<p>São Paulo, SP</p>
+								<a href="https://www.urbecafe.com.br/" target="_blank" alt="Urbe café!">
+									<button class="btn btn-block gama-bg">
+										Saiba mais sobre o local
+									</button>
+								</a>
+							</div>
 						</div>
 						<div class="col-12 col-md-6 map">
 							<iframe 
 								frameborder="0"
 								style="border:0" 
 								allowfullscreen
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.446794985093!2d-46.6800931488903!3d-23.55239158461222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582d2ea12a15%3A0xbe87cea048990b91!2siMasters!5e0!3m2!1spt-BR!2sbr!4v1533529380375"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3470502508408!2d-46.66056004934145!3d-23.55597598461043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce583329c0083b%3A0x8d3ba7fad29a1ec1!2sURBE+CAF%C3%89+BAR!5e0!3m2!1spt-BR!2sbr!4v1533728923889"
 							></iframe>
 						</div>
 					</div>
@@ -149,8 +209,10 @@
 		</main>
 		<footer class="py-5 gray-bg">
 			<section class="container text-center">
-				<div>
-					Redes sociais.
+				<div class="icons">
+					<a href="https://www.facebook.com/mdtalks/" target="_blank">
+						<i class="fab fa-facebook-square"></i>
+					</a>
 				</div>
 				<p class="mt-3">Copyright © MdTalks.com.br</p>
 			</section>
