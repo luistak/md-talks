@@ -38,3 +38,19 @@ section {
         width: 100%;
     }
 }
+
+.panelist {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.italo {
+    background-image: url('../../img/Italo.jpg');
+}
+.sarah {
+    background-image: url('../../img/sarah.jpg');
+}

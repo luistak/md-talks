@@ -7,6 +7,13 @@
     }
 }
 
+.gama-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @extend %responsive-flex;
+}
+
 .white-bg {
     background-color: $light-font-color;
     color: $font-color;
