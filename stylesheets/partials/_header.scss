@@ -1,20 +1,20 @@
 // Header styles
 header {
     box-shadow: 1px 1px 10px rgba(0,0,0,.15);
-    border-top: 2rem solid $green;
+    border-top: 1.25rem solid $green;
     position: fixed;
     z-index: 1000;
     right: 0;
     left: 0;
 }
 
+.logo img {
+    max-width: 10rem;
+}
 .navbar {
-    padding: 3rem 0;
+    padding: 1rem 0;
     &.gama-bg a {
         color: $light-font-color !important;
-    }
-    @media (max-width: 991px) {
-        padding: 1.5rem 0;
     }
 }
 .navbar-nav {
