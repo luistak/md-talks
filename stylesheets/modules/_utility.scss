@@ -63,6 +63,13 @@
     }
 }
 
+%font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+%font-roboto-sans {
+    font-family: 'Roboto', sans-serif;
+}
+
 @mixin placeholder-color($color) {
     &::-webkit-input-placeholder { /* WebKit browsers */
         color: $color;

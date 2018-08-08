@@ -24,11 +24,15 @@
 .green-title {
     color: $green;
     font-size: 2rem;
+    font-weight: 700;
+    @extend %font-open-sans;
 }
 
 section {
     .title {
         font-size: 3.5rem;
+        font-weight: 700;
+        @extend %font-open-sans;
     }
 }
 
@@ -53,4 +57,9 @@ section {
 }
 .sarah {
     background-image: url('../../img/sarah.jpg');
+}
+
+.icons a {
+    font-size: 2rem;
+    color: #fff;
 }
